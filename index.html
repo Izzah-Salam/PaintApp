@@ -21,27 +21,35 @@
                 <div class="row">
                     <h2>Shapes</h2>
                   <ul>
-                    <li><img src="./img/square.png" alt="">Reactangle</li>
-                    <li><img src="./img/circle.png" alt="">Circle</li>
-                    <li><img src="./img/traingle.png" alt="">triangle</li>
-                    <li><input type="checkbox">Fill Colour</li>
+                    <li><img src="./img/square.png" alt=""><span>Reactangle</span></li>
+                    <li><img src="./img/circle.png" alt=""><span>Circle</span></li>
+                    <li><img src="./img/traingle.png" alt=""><span>triangle</span></li>
+                    <li><input id="fillColour" type="checkbox"><label for="fillColour">Fill Colours</label></li>
                   </ul>
                 </div>
                 <div class="row">
                     <h2>Option</h2>
                   <ul>
-                    <li><img src="./img/brush.png" alt="">Brush</li>
-                    <li><img src="./img/eraser.png" alt="">Eraser</li>
-                    <li><input type="range"></li>
+                    <li><img src="./img/brush.png" alt=""><span>Brush</span></li>
+                    <li><img src="./img/eraser.png" alt=""><span>Eraser</span></li>
+                    <li><input type="range" id="size-slider"></li>
                   </ul>
                 </div>
-                <div class="row">
+                <div class="row colours">
                     <h2>Colours</h2>
+                    <ul class="options">
+                        <li class="option"></li>
+                        <li class="option"></li>
+                        <li class="option"></li>
+                        <li class="option"></li>
+                        <li class="option"><input type="color" id="colour-picker"></li>
+                        
+                    </ul>
             
                 </div>
-                <div class="row">
+                <div class="row btn">
                     <button class="clear">Clear Canvas</button>
-                    <button class="saveImg">Save as Image</button>
+                    <button class="saveImg">Save As Image</button>
             
                 </div>
             </div>
