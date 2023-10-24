@@ -1,0 +1,65 @@
+body{
+    background-color: #baf5e1;
+    font-family: 'Playpen Sans', cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.appBox{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    column-gap: 50px;
+    padding-bottom: 2rem;
+    
+}
+
+.toolsbar{
+    background-color: white;
+    border-radius: 10px; 
+    border-bottom: 2rem;  
+}
+
+.drawingboard{
+    border-radius: 10px;
+   background-color: white;
+    width: 700px;
+    height: 100%;
+}
+.row h2{
+    text-align: center;
+}
+.row ul li{
+    list-style:none ;
+    font-size: 16px;
+    padding: 3px;
+   
+}
+
+.row ul li img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.row button{
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clear{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.saveImg{
+    background-color: #8BE0EB;
+    border: none;
+    color: white;
+}
