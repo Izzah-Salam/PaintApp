@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #baf5e1;
+    background-color: #38b6ff;
     font-family: 'Playpen Sans', cursive;
 }
 .container{
@@ -12,23 +12,32 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 4rem;
+    margin: 2rem;
 }
 
 .appBox{
     display: grid;
     grid-template-columns: 250px 1fr;
-    column-gap: 50px;
-    padding-bottom: 2rem;
+    column-gap: 30px;
     
 }
 
 .toolsbar{
     background-color: white;
     border-radius: 10px; 
-   padding: 2rem; 
+   padding: 1rem;
+   cursor: pointer; 
+   
 }
-
+.drawingboard #logo{
+    width: 150px;
+  
+}
+.drawingboard .logo{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
 .drawingboard{
     border-radius: 10px;
    background-color: white;
@@ -36,24 +45,33 @@ body{
     min-width: 700px;
     height: 100%;
 }
+
+.drawingboard canvas{
+    width: 100%;
+    height: 100%;
+}
 input[type=checkbox] {
-    accent-color: #8BE0EB;
+    accent-color: #38b6ff;
+    margin-right: 10px;
+    cursor: pointer;
 
   }
   input[type=range] {
-    accent-color: #8BE0EB;
+    accent-color: #38b6ff;
     width: 100%;
     height: 5px;
+    cursor: pointer;
     
   }
 .row h2{
-    text-align: center;
+    
     margin:1rem 0 ;
 }
 .row ul li{
     list-style:none ;
     font-size: 16px;
     padding: 3px;
+    
    
 }
 
@@ -79,7 +97,7 @@ input[type=checkbox] {
 }
 
 .saveImg{
-    background-color: #8BE0EB;
+    background-color: #38b6ff;
     border: none;
     color: white;
 }
